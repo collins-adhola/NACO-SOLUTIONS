@@ -5,8 +5,8 @@
 }
 html,
 body {
-  color: #555;
-  font-family: "Lato", "Arial", "sans-serif";
+  color: white555;
+  font-family: "Roboto  " "Lato", "sans-serif";
   font-weight: 300px;
   font-size: 16px;
   text-rendering: optimizeLegibility;
@@ -21,17 +21,50 @@ body {
   background-attachment: fixed;
   background-size: 100% 100%;
 }
+header{
+  position: relative;
+  z-index: 1;
+}
+
+#naco_solutions{
+  position: absolute;
+  z-index: 2;
+  /* color: #fff; */
+  font-weight: 800;
+  margin-top: 10%;
+  letter-spacing: 1.0em;
+  margin-left:50%;
+  background-color: white;
+  
+  
+}
+
 .who-we-are {
   background-color: darkcyan;
   height: 300px;
+}
+
+.who-we-are p{
+  background-color: white;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.7em;
 }
 .wedo-1 {
   background-color: rgb(83, 133, 240);
   height: 500px;
 }
 .wedo-2 {
-  background-color: darkcyan;
-  height: 500px;
+  background-color: white;
+  height: 420px;
+}
+.wedo-2 p{
+  background-color:white;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5em;
 }
 
 .wedo-2 img {
@@ -42,7 +75,7 @@ body {
   margin-right: auto;
 }
 .wedo-3 {
-  background-color: rgb(94, 23, 216);
+  background-color:white;
   height: 395px;
   padding: 11px;
 }
@@ -65,6 +98,11 @@ body {
   letter-spacing: 0.1rem;
   border-top: 2px solid rgba(220, 226, 226, 0.644);
   font-weight: bold;
+}
+
+.wedo-7{
+  background-color: #679292;
+  height: 500px;
 }
 
 .contact_us {

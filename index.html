@@ -4,10 +4,14 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- font-family -->
 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Open+Sans:wght@300;400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
     <!-- css link -->
     <link rel="stylesheet" href="css/stylesheet.css" rel="stylesheet">
@@ -19,13 +23,10 @@
 
 
   <body>
+    <header> 
   
-    <div class="jumbotron" style="margin-bottom: 0px;">
-      <h1>NACO Solutions</h1>
-    </div>
-      <p>Your one stop exporters</p>
-
-    </div>
+    
+    
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 
@@ -58,35 +59,34 @@
     </div>
 
     </nav>
-    <img src="img/continents.jpeg" alt="continents" class="img-fluid">
+  
+  <div class="container-fluid"> 
+ 
+  <div class="row"> 
+    <div id="naco_solutions" >
+        <h1>NACO Solutions</h1>      
+        <p>Your onestop Export needs</p>
     
-      
-          
-
-          <!-- <h3>Contact us</h3>
-          <address>
-            
-            Kemp House <br>
-            160 City Road,<br> 
-            London,<br> 
-            EC1V 2NX <br>
-  
-          + 01 234 567 89 <br>
-          
-  
-          
-            info@nacosolutions.co.uk.
-          </address> -->
-        
-      
+    </div>
 
     
-
-
-
-
-          
-
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100 img-fluid" src="img/continents.jpeg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 img-fluid" src="img/globe2.jpeg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 img-fluid" src="img/continents2.jpeg" alt="Third slide">
+        </div>
+      </div>
+    </div> 
+  </div>
+  </div>
+  </header> 
+ 
 
 <div class="container-fluid">  
   <div class="row what-we-do">
@@ -96,9 +96,9 @@
     </div>
 
 
-    <div class="wedo-3 col-md-8 col-9">
+    <div class="wedo-3 col-md-8 col-9 who-we-are">
       <h2 class="text-center text-capitalize">Who we are</h2>
-           <p class="lead text-center text-capitalize strong">We source the right manufacture from day one! We know unless we get the right factory for the right product, you are doomed from day one! 70% of the factories we export from are not even listed on Alibaba.com!</p> 
+           <p class="lead text-center text-capitalize">We source the right manufacturer from day one! We know unless we get the right factory for the right product, you are doomed from day one! 70% of the factories we export from are not even listed on Alibaba.com!</p> 
            <p class="text-center"><a href="#">Find out more</a>
            </p>
 
@@ -137,9 +137,12 @@
 
     <div class="row what-we-do">
       <div class="wedo-2 col-md-4 col-sm-12">1
-        <img src="img/negotiation-1.jpeg" alt="callcentre" class="img-fluid">
-        <h2 class="text-center">Quality Assurance</h2>
-                <p class="text-center strong">In short, we ensure that the product, assembly, instructions & packaging are all perfect BEFORE we go into mass production to prevent mass mistakes!</p>
+        <img src="img/negotiation-1.jpeg" alt="callcentre" class="img-fluid img-thumbnail">
+        <h3 class="text-center">Quality Assurance</h3>
+                <p class="lead text-center text-capitalize">In short, we ensure that the product, assembly, instructions & packaging are all perfect BEFORE we go into mass production to prevent mass mistakes!</p>
+                <p class="text-center"><a href="#" >Find out more</a>
+                </p> 
+
         
        
        
@@ -147,10 +150,10 @@
 
 
       <div class="wedo-2 col-md-4 col-sm-12">2
-        <img src="img/negotiation-icon.png" alt="callcentre" class="img-fluid">
-        <h2 class="text-center">Negotations</h2>
+        <img src="img/negotiation-icon.png" alt="callcentre" class="img-fluid img-thumbnail">
+        <h3 class="text-center">Negotations</h3>
 
-        <p class="text-center">We’ll negotiate you the best possible price, but with a clear and agreed specification to ensure you get the right product at the right price!
+        <p class="lead text-center text-capitalize">We’ll negotiate you the best possible price, but with a clear and agreed specification to ensure you get the right product at the right price!
         </p>
        <p class="text-center"><a href="#" >Find out more</a>
        </p> 
@@ -161,10 +164,11 @@
         
      
       <div class="wedo-2 col-md-4 col-sm-12">3
-        <img src="img/logistics-icon2.jpeg" alt="callcentre" class="img-fluid">
-        <h2 class="text-center">Logistics</h2>
-                <p class="text-center strong">Using our contracted rates and scale with our partners we will get goods to your door, landed at the best possible price!</p>
-                <a href="#">Find out more</a>
+        <img src="img/logistics-icon2.jpeg" alt="callcentre" class="img-fluid img-thumbnail">
+        <h3 class="text-center">Logistics</h3>
+                <p class="lead text-center text-capitalize">Using our contracted rates and scale with our partners we will get goods to your door, landed at the best possible price!</p>
+                <p class="text-center"><a href="#" >Find out more</a>
+                </p> 
       
       </div>
     </div>
@@ -173,34 +177,91 @@
 
     <div class="row what-we-do">
       <div class="wedo-2 col-md-4 col-sm-12">4
-        <img src="img/quality-assurance2.jpeg" alt="callcentre" class="img-fluid">
-        <h5 class="text-center" >Quality Control</h5>
-                <p>Our complete Quality Management systems ensure that we only ship qualified product to you!</p>
-                <a href="#" class="callout">Find out more</a>
+        <img src="img/quality-assurance2.jpeg" alt="callcentre" class="img-fluid img-thumbnail">
+        <h3 class="text-center" >Quality Control</h3>
+                <p class="lead text-center text-capitalize">Our complete Quality Management systems ensure that we only ship qualified product to you!</p>
+                <p class="text-center"><a href="#" >Find out more</a>
+                </p>
        
        
 
       </div>
       <div class="wedo-2 col-md-4 col-sm-12">5
-        <img src="img/logistics-icon1.jpeg" alt="callcentre" class="img-fluid">
+        <img src="img/logistics-icon1.jpeg" alt="callcentre" class="img-fluid img-thumbnail">
         
         
       </div>
       <div class="wedo-2 col-md-4 col-sm-12">6  
+        <div class="card">
+          <img src="img/blackbusiness.jpeg" class="card-img-top img-fluid img-thumbnail" alt="..." style="width: 80%;";>
+          <div class="card-body">
+            <h5 class="card-title">Quality Assurance</h5>
+            <p class="card-text">In short, we ensure that the product, assembly, instructions & packaging are all perfect BEFORE we go into mass production to prevent mass mistakes!</p>
+            
+            <p class="text-center card-text"><a href="#" >Find out more</a>
+            </p>
+            
+          </div>
+        </div>
         
         
       </div>
     </div>
 
-
-
-
-
+    <div class="card-group">
+      <div class="card">
+        <img src="img/blackbusiness.jpeg" class="card-img-top img-fluid img-thumbnail" alt="..." style="width: 80%;";>
+        <div class="card-body">
+          <h5 class="card-title">Quality Assurance</h5>
+          <p class="card-text">In short, we ensure that the product, assembly, instructions & packaging are all perfect BEFORE we go into mass production to prevent mass mistakes!</p>
+          
+          <p class="text-center card-text"><a href="#" >Find out more</a>
+          </p>
+          
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/negotiation-2.jpeg" class="card-img-top img-fluid" alt="..." style="width: 80%";>
+        <div class="card-body">
+          <h5 class="card-title">Negotations</h5>
+          <p class="card-text">We’ll negotiate you the best possible price, but with a clear and agreed specification to ensure you get the right product at the right price!</p>
+          
+            <p class="text-center card-text"><a href="#" >Find out more</a>
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/logistics1.jpeg" class="card-img-top img-fluid" alt="..." style="width: 80%;">
+        <div class="card-body">
+          <h5 class="card-title">Logistics</h5>
+          <p class="card-text">Using our contracted rates and scale with our partners we will get goods to your door, landed at the best possible price!</p>
+            <p class="text-center"><a href="#" >Find out more</a>
+        </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/logistics-icon1.jpeg" class="card-img-top img-fluid" alt="..." style="width: 80%;">
+        <div class="card-body">
+          <h5 class="card-title">Logistics</h5>
+          <p class="card-text">Using our contracted rates and scale with our partners we will get goods to your door, landed at the best possible price!</p>
+          <p class="text-center card-text"><a href="#" >Find out more</a>
+          </p>
+        </div>
+      </div>
     
+    
+    </div>
+    
+
+
+
+
+
+
     
 
     <div class="row what-we-do">
-      <div class="wedo-8 col-md-4 col-sm-3  contact-photo" >
+      <div class="wedo-7 col-md-4 col-sm-3  contact-photo" >
         <div id="carouselExampleSlidesOnly" class="carousel slide column contact_img"   data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -220,8 +281,8 @@
 
 
       <div class="wedo-7 col-md-8 col-sm-9 ">
-        <h5>Contact Us</h5>
-          <p>Do you have any questions? Do not Hesistate to contact us</p>
+        <h4 class="text-capitalize"> Contact Us </h4>
+          <p class="lead text-capitalize">Do you have any questions? Do not Hesistate to contact us</p>
           
         <div class="contact_us">
           <form action="/action_page.php">
@@ -252,56 +313,6 @@
 
 
 
-<div class="card-group">
-  <div class="card">
-    <img src="img/blackbusiness.jpeg" class="card-img-top img-fluid" alt="..." style="width: 80%;";>
-    <div class="card-body">
-      <h5 class="card-title">Quality Assurance</h5>
-      <p class="card-text">In short, we ensure that the product, assembly, instructions & packaging are all perfect BEFORE we go into mass production to prevent mass mistakes!</p>
-      <p class="card-text">
-        <p class="text-center"><a href="#" >Find out more</a>
-      </p>
-      
-    </div>
-  </div>
-  <div class="card">
-    <img src="img/negotiation-2.jpeg" class="card-img-top img-fluid" alt="..." style="width: 80%";>
-    <div class="card-body">
-      <h5 class="card-title">Negotations</h5>
-      <p class="card-text">We’ll negotiate you the best possible price, but with a clear and agreed specification to ensure you get the right product at the right price!</p>
-      <p class="card-text">
-        <p class="text-center"><a href="#" >Find out more</a>
-      </p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="img/logistics1.jpeg" class="card-img-top img-fluid" alt="..." style="width: 80%;">
-    <div class="card-body">
-      <h5 class="card-title">Logistics</h5>
-      <p class="card-text">Using our contracted rates and scale with our partners we will get goods to your door, landed at the best possible price!</p>
-      <p class="card-text">
-        <p class="text-center"><a href="#" >Find out more</a>
-      </p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="img/logistics-icon1.jpeg" class="card-img-top img-fluid" alt="..." style="width: 80%;">
-    <div class="card-body">
-      <h5 class="card-title">Logistics</h5>
-      <p class="card-text">Using our contracted rates and scale with our partners we will get goods to your door, landed at the best possible price!</p>
-      <p class="card-text">
-        <p class="text-center"><a href="#" >Find out more</a>
-      </p>
-    </div>
-  </div>
-
-
-
-
-
-
-
-</div>
 
 
 
@@ -319,6 +330,10 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+<!-- trial - https://stackoverflow.com/questions/32018938/class-jumbotron-in-bootstrap-not-working-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
    
 
   </body>
