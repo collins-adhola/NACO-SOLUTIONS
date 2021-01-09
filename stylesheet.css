@@ -34,11 +34,12 @@ header{
   position: absolute;
   z-index: 2;
   /* color: #fff; */
-  font-weight: 700;
+  font-weight: 800;
   margin-top: 10%;
   letter-spacing: 0.5em;
   margin-left:50%;
-  background-color: white;
+  /* background-color: rgb(255, 255, 255); */
+  
   
   
 }
@@ -150,11 +151,11 @@ input[type="submit"]:hover {
 }
 
 /* Style the container/contact section */
-.container {
+/* .container {
   border-radius: 5px;
   background-color: white;
   padding: 10px;
-}
+} */
 
 /* Create two columns that float next to eachother */
 .column {
@@ -179,10 +180,14 @@ input[type="submit"]:hover {
   float: right;
 }
 
+.copyright-1{
+  background-color:rgba(140, 243, 243, 0.244);
+}
+
 @media only screen and (max-width: 850px) {
   
   #naco_solutions{
-    position: absolute;
+    position: relative;
     z-index: 2;
     /* color: #fff; */
     font-weight: 200;
@@ -193,12 +198,13 @@ input[type="submit"]:hover {
     /* margin-top: 10px; */
     margin-bottom: 1px;
     padding-top: 100px;
-    padding-bottom: 5px;
-    
-    
-    
+    padding-bottom: 5px; 
   }
-  .who-we-are p{
+
+  .nacs{
+    font-size: 30px;
+  }
+  .who-we-are {
     background-color: white;
     width: 60%;
     margin-left: auto;
@@ -210,4 +216,6 @@ input[type="submit"]:hover {
   .navu{
     margin-bottom: 10px;
   
+}
+
 }
